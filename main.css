@@ -33,7 +33,7 @@ h1 {
   padding-top: 20px;
 }
 
-h2 {
+.video-h2 {
   font-family: David Libre, garamond, serif;
   font-size: 7em;
   padding-top: 30px;
@@ -47,7 +47,7 @@ h2 {
   color: white;
 }
 
-h3 {
+.video-h3 {
   font-family: David Libre, garamond, serif;
   font-size: 1.5em;
   padding-top: 150px;
