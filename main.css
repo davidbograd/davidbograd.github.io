@@ -9,6 +9,10 @@ body {
   padding-top: 20px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 video {
     position: fixed;
     top: 50%;
