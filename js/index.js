@@ -42,7 +42,6 @@ var count = 0;
     // do some stuff
     count += 4.2;
     $(".page-content").html("$ " + (Math.round(count * 10) / 10));
-    console.log(count);
     setTimeout(arguments.callee, 1000);
 })();
 
