@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:700';
+body, html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  left: -100px;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('http://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
+  width: 1800px;
+  height: 800px;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+}
+
+body {
+
+    /*background: -webkit-linear-gradient(top, #464d53 0%, #293036 40%);
+  background: linear-gradient(to bottom, #464d53 0%, #293036 40%);*/
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: perspective(800px);
+    transform: perspective(800px);
+}
+
+.bgimg {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('http://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
+  width:100%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.poster {
+    width: 384px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -310px 0 0 -185px;
+    border-radius: 5px;
+    box-shadow: 0 45px 100px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.poster .shine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: -webkit-linear-gradient(315deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 50%);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 50%);
+    z-index: 200;
+    opacity: 0.45;
+}
+
+.poster div[class*="layer-"] {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+.poster .layer-1 {
+    background-image: url("../images/inception/luft.png");
+}
+
+.poster .layer-2 {
+    background-image: url("../images/inception/bygning.png");
+}
+
+.poster .layer-4 {
+    background-image: url("../images/inception/text.png");
+}
+
+.poster .layer-5 {
+    background-image: url("../images/inception/vandmand.png");
+}
+
+.page-content {
+    font-family: Abril Fatface, helvetica, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    top: 165px;
+    bot: 0;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    background: -webkit-linear-gradient(#fac926, #c3912e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
