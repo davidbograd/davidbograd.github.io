@@ -12,7 +12,7 @@ body:before {
   z-index: -1;
 
   display: block;
-  background-image: url('https://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
+  background-image: url('http://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
   width: 1800px;
   height: 800px;
 
@@ -41,7 +41,7 @@ body {
   z-index: 1;
 
   display: block;
-  background-image: url('https://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
+  background-image: url('http://www.film-nyt.dk/wp-content/uploads/2010/07/inception-explained.jpg');
   width:100%;
 
   -webkit-filter: blur(5px);
