@@ -12,7 +12,7 @@ body:before {
   z-index: -1;
 
   display: block;
-  background-image: url('images/inception/inception-explained.jpg');
+  background-image: url('../images/inception/inception-explained.jpg');
   width: 1800px;
   height: 800px;
 
