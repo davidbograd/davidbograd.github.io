@@ -3,37 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Inception</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favdollar.png" />
-
+    <title>Its on fire!</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script_v2.js"></script>
+    <link rel="stylesheet" href="main_v2.css">
 </head>
 
+
+
 <body>
-    <div class="bgimg"></div>
-    <div data-offset="5" class="poster">
-        <div class="shine"></div>
-        <div data-offset="-15" class="layer-1"></div>
-        <div class="layer-2"></div>
-        <div data-offset="15" class="layer-3">
-            <h1 class="page-content"></h1>
-        </div>
-        <div data-offset="10" class="layer-4"></div>
-        <div data-offset="10" class="layer-5"></div>
+
+<h1>Choose type of images you want to see</h1>
+  <div class="nav">
+   <ul>
+     <li class="nature"><a href="#" class="js-getnature">nature</a></li>
+     <li class="people"><a href="#" class="js-getpeople">people</a></li>
+     <li class="city"><a href="#" class="js-getcity">city</a></li>
+     </ul>
+ </div>
+
+    <h2>Photo credit: <span class="credit"></span> &nbsp;&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;&nbsp; Likes: <span class="likes"></span></h2>
+
+    <div class='photo-bg'></div>
+
+    <div class="photodiv">
+        <!--<img class="photo" src=""/>-->
     </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-    <script src="js/index.js"></script>
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-84238425-2', 'auto');
-  ga('send', 'pageview');
+      ga('create', 'UA-84238425-3', 'auto');
+      ga('send', 'pageview');
 
-</script>
+    </script>
 </body>
+
 
 </html>
