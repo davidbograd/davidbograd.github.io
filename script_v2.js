@@ -83,7 +83,7 @@ $(function() {
 
     // JS for CITY pictures
     $(".js-getcity").click(function() {
-        var postURL = "https://api.unsplash.com/collections/1243/photos/?per_page=30&client_id=02634dab65c4bc70f1b56facf645922dd01b35ba6228d97e40b239c22e05643c";
+        var postURL = "https://api.unsplash.com/collections/158643/photos/?per_page=30&client_id=02634dab65c4bc70f1b56facf645922dd01b35ba6228d97e40b239c22e05643c";
         var count = 0;
         var data;
 
