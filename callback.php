@@ -1,1 +1,3 @@
-hub_challenge
+<?php
+echo "Hello world!";
+?>
