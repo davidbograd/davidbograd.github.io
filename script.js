@@ -51,8 +51,7 @@ $(document).ready(function() {
             });
         } else {
             console.log("It works!");
+            console.log("Joa er nice");
         };
-
-        console.log("Joa er nice");
     });
 });
