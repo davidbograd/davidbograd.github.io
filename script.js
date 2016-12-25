@@ -47,9 +47,12 @@ $(document).ready(function() {
                 for (var i = 0; i < groups.length; i++) {
                     $('.all-groups').append("<div class='group'><p><span class='groupheader'>Group " + (i + 1) + "</span></br> " + groups[i] + "</p></div>");
                 };
+
             });
         } else {
             console.log("It works!");
         };
+
+        console.log("Joa er nice");
     });
 });
